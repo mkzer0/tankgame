@@ -24,20 +24,14 @@
             <id>snapshots.repository.smsmt.com</id>
             <url>s3://repository.smsmt.com/snapshots</url>
         </repository>
-        <repository>
-      <id>yle-public</id>
-      <name>Yle public repository</name>
-      <url>http://maven.c4.yle.fi/release</url>
-      <layout>default</layout>
-    </repository>
     </repositories>
 
     <build>
         <extensions>
             <extension>
-      <groupId>fi.yle.tools</groupId>
-      <artifactId>aws-maven</artifactId>
-      <version>1.4.0</version>
+        <groupId>org.springframework.build</groupId>
+        <artifactId>aws-maven</artifactId>
+        <version>5.0.0.RELEASE</version>
       </extension>
         </extensions>
 
