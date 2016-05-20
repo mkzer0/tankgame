@@ -23,15 +23,10 @@
         <repository>
             <id>snapshots.repository.smsmt.com</id>
             <url>s3://repository.smsmt.com/snapshots</url>
+            <snapshots>
+              <enabled>true</enabled>
+            </snapshots>
         </repository>
-        <repository>
-<snapshots>
-<enabled>false</enabled>
-</snapshots>
-<id>bintray-mkzer0-smsmt</id>
-<name>bintray</name>
-<url>http://dl.bintray.com/mkzer0/smsmt</url>
-</repository>
     </repositories>
 
     <build>
